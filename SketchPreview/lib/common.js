@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 
-#import 'lib/calculations.js'
+@import 'lib/calculations.js'
 
 var DEBUG = false
 

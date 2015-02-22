@@ -3,8 +3,13 @@
 # This script is intended for dev use only.
 
 SKETCH_PLUGIN_DIR="$HOME/Library/Containers/com.bohemiancoding.sketch3/Data/Library/Application Support/com.bohemiancoding.sketch3/Plugins/"
+SKETCH_PLUGIN_BETA_DIR="$HOME/Library/Containers/com.bohemiancoding.sketch3.beta/Data/Library/Application Support/com.bohemiancoding.sketch3/Plugins/"
 
 if [ -d "$SKETCH_PLUGIN_DIR" ]; then
   cp -Rv SketchPreview "$SKETCH_PLUGIN_DIR"
+fi
+
+if [ -d "$SKETCH_PLUGIN_BETA_DIR" ]; then
+  cp -Rv SketchPreview "$SKETCH_PLUGIN_BETA_DIR"
 fi
 

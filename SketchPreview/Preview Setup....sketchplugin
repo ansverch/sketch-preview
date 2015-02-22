@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 
-#import 'lib/common.js'
+@import 'lib/common.js'
 
 function requestPreviewSize(config) {
   if (!isSupportedVersion()) {
